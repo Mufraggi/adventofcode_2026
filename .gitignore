@@ -1,0 +1,40 @@
+# Dune build directory
+/_build/
+**/_build/
+
+# Dune temporary files
+/.merlin
+/.env
+/.ocamlformat
+
+# ocaml-lsp-server cache
+/.ocaml-lsp-server/
+
+# Opam local switch
+/_opam/
+.opam-switch
+
+# Bytecode / native binaries
+*.cmo
+*.cmi
+*.cmx
+*.cmxs
+*.cmt
+*.cmti
+*.o
+*.a
+*.exe
+
+# Editor / IDE
+*.swp
+*.swo
+*.vscode/
+*.DS_Store
+
+# Coverage / profiling
+coverage/
+profiler.out
+
+# Input/output files (optional)
+inputs/*.txt
+!inputs/.keep
