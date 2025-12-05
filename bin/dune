@@ -1,4 +1,4 @@
 (executable
  (public_name adventofcode_2026)
- (name main)
+ (name day01)
  (libraries adventofcode_2026))
