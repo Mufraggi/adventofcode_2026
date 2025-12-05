@@ -47,7 +47,6 @@ let rec iterate array start count_zeros count = match array with
       
       let (new_position, countNew) = incremant_position start dir nb 0 in
       
-      (* Count if we landed on 0 *)
       let new_count = if new_position = 0 then count_zeros + 1 else count_zeros in
       
       iterate tail new_position new_count count+countNew
